@@ -1,0 +1,86 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.main-bar{
+    height:15%;
+    z-index: 100;
+}
+
+.main-bar .logo img{
+    max-width: 20vw;
+    min-width: 110px;
+}
+
+.main-bar .menu-icon{
+    width:30px;
+    height:25px
+}
+
+.main-bar .menu-icon div{
+    width:30px;
+    height:4px
+}
+
+
+.main-bar .menu-icon:hover div{
+    background-color: #ffce91 !important;
+}
+.main-bar ul li{
+    cursor: pointer;
+}
+.main-bar ul li:hover{
+    color:dodgerblue;
+    background-color: whitesmoke;
+}
+
+.landing .bg-img{
+    background-image: url("../images/bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -100;
+    transition: 3s;
+}
+
+.landing .L-landing,.landing .R-landing{
+    height: calc(100% - 118px);
+    padding-top: 20vh;
+    z-index: 5;
+}
+.landing .L-landing{
+    background-color: #ffcd917a;
+}
+
+.landing .R-landing{
+    background-color: #9d9d9d4f;
+}
+
+.landing .pizza img{
+    width: 676px;
+    height: 560px;
+    z-index: -5;
+    transition: 2s;
+}
+
+.landing .L-landing .pizza img{
+    right: calc(-756px/2);
+}
+.landing .R-landing .pizza img{
+    left: calc(-596px/2);
+}
+
+.landing .L-landing .text p ,.landing .R-landing .text p{
+    background-color: #ffffffab;
+}
+@media (max-width:450px) {
+    .landing .L-landing .text h2 ,.landing .R-landing .text h2{
+        font-size: 20px;
+    }
+    .landing .L-landing .text p ,.landing .R-landing .text p{
+        font-size: 13px;
+    }
+}

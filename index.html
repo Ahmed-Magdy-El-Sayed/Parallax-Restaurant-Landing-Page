@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>landing page</title>
+</head>
+<body>
+    <div class='main-bar ps-5 pe-5 pt-3 pb-3 w-100 d-flex justify-content-between position-fixed '>
+        <div class='logo  mt-auto mb-auto'>
+            <img  src='./images/logo.png' title='logo'></img>
+        </div>
+        <div class='menu-container position-relative w-50 mt-auto mb-auto'>
+            <span class='menu-icon d-none m-auto me-0' >
+                <div class='bg-black mb-1 rounded-pill'></div>
+                <div class='bg-black mb-1 rounded-pill'></div>
+                <div class='bg-black mb-1 rounded-pill'></div>
+            </span>
+            <ul class='menu-bar list-unstyled fs-4 m-0 d-flex justify-content-around align-items-center'>
+                <li class="p-3 rounded-pill">Home</li>
+                <li class="p-3 rounded-pill">Menu</li>
+                <li class="p-3 rounded-pill">About Us</li>
+                <li class="p-3 rounded-pill">Order</li>
+            </ul>
+        </div>
+    </div>
+    <div class="landing h-100 row m-0 position-relative overflow-hidden">
+        <div class="L-landing h-100 overflow-hidden position-relative col">
+            <div class="text row w-75 m-auto">
+                <h2>Modern Recipes Greatly Taste Food</h2>
+                <p class="mt-5 rounded">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in 
+                    laying out print, graphic or web designs. The passage is attributed to 
+                    an unknown typesetter in the 15th century who is thought to have
+                </p>
+                <button type="button" class="btn btn-danger rounded-pill fw-bold">See More</button>
+            </div>
+            <div class="pizza">
+                <img class="position-absolute bottom-0" src="./images/pizza.png"></img>
+            </div>
+        </div>
+        <div class="R-landing h-100 overflow-hidden position-relative col">
+            <div class="text row w-75 m-auto">
+                <h2>The Finest Ingredients For Taste Batter</h2>
+                <p class="mt-5 rounded">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in 
+                    laying out print, graphic or web designs. The passage is attributed to an 
+                    unknown typesetter in the 15th century who is thought to have
+                </p>
+                <button type="button" class="btn btn-danger rounded-pill fw-bold">See More</button>
+            </div>
+            <div class="pizza ">
+                <img class="position-absolute bottom-0" src="./images/pizza-right.png"></img>
+            </div>
+        </div>
+        <div class="bg-img position-absolute w-100 h-100"></div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
